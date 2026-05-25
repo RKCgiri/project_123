@@ -72,8 +72,6 @@ I captured each frame shown by the webcam of our machine.
 
 In each frame I defined a region of interest (ROI) which is denoted by a blue bounded square as shown in the image below.
 
-![Training Data Collection Image](images/trainingdata.png)
-
 After capturing the image from the ROI, I applied gaussian blur filter to the image which helps for extracting various features of the image. 
 
 The image after applying gaussian blur looks like below.
@@ -180,8 +178,6 @@ So, to handle above cases I made three different classifiers for classifying the
 3.	{S, M, N} 
 
 The GUI(Graphical User Interface) of the application is as shown below :
-
-![GUI](images/gui.png)
 
 Flow Chart for Gesture Classification is as following :
 
